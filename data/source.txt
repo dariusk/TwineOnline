@@ -1,0 +1,8 @@
+:: Start
+Your story will [[doop]] this passage first. Edit it by double clicking it.
+
+
+:: doop
+
+
+

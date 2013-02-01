@@ -1,0 +1,158 @@
+body{
+			margin:0px;
+			background:#888;
+			font-family:arial, sans-serif;
+}
+nav{
+			position:fixed;
+			width:100%;
+			padding:0.5em;
+			margin-right:100em;
+			background:#0a0;
+			border-bottom:3px solid #080;
+			color:#fff;
+			font-family:arial, sans-serif;
+			text-shadow: 0 1px 4px #000;
+			z-index:999;
+}
+nav ul{
+			list-style:none;
+			margin:0px 2em;
+			padding:0px;
+}
+nav li{
+			display:inline-block;
+}          
+nav a, nav a:visited{     
+			color:inherit;
+			text-decoration:none;
+}
+nav a:hover{
+			text-shadow: 0 1px 4px #0f0;
+}
+.title{
+			font-weight:bold;
+}
+.login{
+			float:right;
+}
+menu{
+	display:none;
+	position:absolute;
+	font-size:8pt;
+	font-family:arial, sans-serif;
+	padding:0.25em;
+	background:#fff;
+	box-shadow:0 2px 2px; #000;
+	z-index:1000;
+}
+menu ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.menuoption{
+	color:#000;
+}
+.menuoption:hover{
+	background:#339;
+	color:#fff;
+}
+menu .separator{
+	height:1px;
+	max-height;1px;
+	margin:.25em 0em;
+	background:#ccc;
+}
+main, #main, layoutArea{
+	position:absolute;
+	background:#888;
+	top:2.5em;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	border:5px dashed #aaa;
+
+}
+
+.popup{
+	display:block;
+	position:absolute;
+	z-index:999;
+	border:1px solid #000;
+	background:#ddd;
+}
+
+.popup .titlebar {
+	width:100%;
+	background-color:#090;
+	color:#fff;
+	line-height:1.55em;
+	vertical-align:center;
+}
+.popup .titlebar .barbutton{
+	float:right;
+	border:none;
+	border-top:1px solid #0c0;
+	box-shadow:0 1px 5px #000;
+	background:#0a0;
+	color:#fff;
+	font-weight:bold;
+}
+
+.popup .titlebar .barbutton:hover{
+	background:#0b0;
+}
+
+.edit{
+	top:400px;
+	left:400px;
+	height:420px;
+	width:600px;
+}
+.popup label{
+	display:table-cell;
+}
+.popup .field{
+	display:table-row;
+}
+.popup .field input{
+	width:350px;
+	margin-left:3em;
+}
+.popup textarea{
+	width:100%;
+	height:20em;
+}
+
+
+
+.clear{
+			clear:both;
+}
+
+.passage{
+			display:block;
+			position:absolute;
+			font-size:9pt;
+			height:120px;
+			width:120px;
+			background:white;
+			border:1px solid black;
+			z-index:2;
+			cursor:move;
+}
+.passage .title{
+			max-height:1.3em;
+			padding:.1em;
+			font-size:10pt;
+			overflow:hidden;
+			background:#090;
+			color:#fff;
+}
+.line{
+			transform-origin: 0 100%;
+			height: 2px; /* Line width of 3 */
+			background: #fff;
+			z-index:1;
+}

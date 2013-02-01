@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link href="style/twineonline.css" rel="stylesheet" />
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<script src="script/twine.js"></script>
+</head>
+<body>
+	<menu id="contextmenu">
+		<ul>
+			<li class='menuoption'>New Passage Here</li>
+			<li class='separator'></li>
+			<li class='menuoption'>Save</li>
+			<li class='menuoption'>Remove Links</li>
+		</ul>
+	</menu>
+
+	<div id="edit_0" class="draggable edit popup">
+		<div class='titlebar'>
+			<div class='title'>Edit<input id="edit_0_close" class="barbutton" type='button' value='X'/> </div>
+			<div class='clear'></div>
+		</div>
+		<div class='topfields'>
+			<div class='field'><label for="edit_0_title">Title</label><input id='edit_0_title' type='text' /></div>
+			<div class='field'><label for="edit_0_tags">Tags (separate with spaces)</label><input id='edit_0_tags' type='text' /></div>
+		</div>
+		<textarea id='edit_0_text' type='textarea'></textarea>
+	</div>
+	
+	<nav>
+		<ul>
+			<li class='apptitle'>Twine Online</li>
+			<li class='login'><a href='javascript:void(0)'>Log In</a></li>
+		</ul>
+		<div class='clear' />
+	</nav>
+	<main id='mainmain'>
+				<div class='passage link1' id="p_0" pid=0><div class='title' />Start</div><div class='text'>First passage.</div></div>
+				<div class='passage link1' id="p_1" pid=1><div class='title' />Flump</div><div class='text'>Second passage.</div></div>
+	</main>
+	<footer>
+   
+	</footer>
+</body>
+</html>
